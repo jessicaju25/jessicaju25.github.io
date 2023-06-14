@@ -68,10 +68,22 @@
     margin: 20px;
     display: inline-block;
   }
+  .map-image {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .map-link:hover .map-image {
+    border-color: orange;
+  }
+  
+  
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
+ 
+  
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
