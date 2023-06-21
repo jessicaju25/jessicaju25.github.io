@@ -511,20 +511,38 @@ nav ul li a {
 /*-----------------------------------------------------------------------------------*/
 
 #contact {
+  justify-content: center;
+  align-items: center;
   height: auto;
   width: 100%;
+}
+.contact-contact {
+  text-align: center;
+  white-space: nowrap; /* Prevent line breaks */
+  padding-left: 450px; /* Adjust the padding as needed */
+  /* padding-right: 100px; Adjust the padding as needed */
 }
 
 .contact-details {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
+  white-space: nowrap; /* Prevent line breaks */
 }
 
 .contact-details li {
   padding-bottom: 10px;
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 20px; /* Adjust the horizontal margin as needed */
+  /* margin-left: 290pt; */
 }
 
+
+
+/* 
 #contact input, #contact textarea {
   width: 100%;
 }
@@ -560,7 +578,7 @@ nav ul li a {
   margin: 0 0 20px;
   font-weight: 400;
   font-size: 13px;
-}
+} */
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer

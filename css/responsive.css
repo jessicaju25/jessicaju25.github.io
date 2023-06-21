@@ -87,6 +87,10 @@
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   /* Footer */
   #footer .socials-media ul li {
@@ -158,6 +162,10 @@
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   /* Footer */
   #footer .socials-media ul li {
@@ -226,10 +234,14 @@
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
   }
-  /* Contact */
+  /* Contact
   .contact-contact {
     margin-bottom: 30px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */
   /* Footer */
   #footer .socials-media ul li {
     margin-right: 0;
@@ -299,6 +311,10 @@
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   /* Footer */
   #footer .socials-media ul li {
@@ -369,6 +385,10 @@
   /* Contact */
   .contact-contact {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   /* Footer */
   #footer .socials-media ul li {
