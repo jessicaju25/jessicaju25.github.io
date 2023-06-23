@@ -69,6 +69,8 @@
     display: inline-block;
   }
   .map-image {
+    width: 200px;
+    height: 50px;
     border: 2px solid transparent;
     transition: border-color 0.3s ease-in-out;
   }
@@ -381,6 +383,7 @@
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
+    text-align: justify;
   }
   /* Contact */
   .contact-contact {
