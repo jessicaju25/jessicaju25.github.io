@@ -42,10 +42,6 @@ My portfolio website showcases my projects, skills, and experiences. It provides
 - Experience with CSS preprocessors (e.g., Sass)
 - Web accessibility best practices
 
-## Screenshots
-
-![Screenshot 1](/screenshots/screenshot1.png)
-
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/jessicaju25/jessicaju25.github.io.git`
