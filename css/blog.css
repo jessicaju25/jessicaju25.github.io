@@ -17,7 +17,7 @@
 /* main content */
 
 .main-content {
-  background: #f7f7f7;
+  background: #303030bf;
 }
 
 .main-content .container-main {
@@ -31,7 +31,7 @@
 }
 
 .container-main .block-main .content-main {
-  background: #fff none repeat scroll 0 0;
+  background: #303030bf none repeat scroll 0 0;
   display: inline-block;
   width: 100%;
 }
@@ -42,23 +42,22 @@
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #fffdfd;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-  text-align: justify;
+  text-align: left;
 }
 
 .journal-txt h4 a:hover {
-  color: #b8a07e;
+  color: #1d95b9;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-  text-align: justify;
 }
 
 .post-meta ul li {
@@ -69,18 +68,18 @@
   text-transform: capitalize;
   display: inline-block;
   float: none;
-  text-align: justify;
+  text-align: left;
 }
 
 .content-main .post-meta a {
-  color: #a2a2a2;
+  color: #ffffff;
   margin-left: 5px;
 }
 
 /* Comments */
 
 .comments {
-  background: #fff;
+  background: #303030bf;
 }
 
 .entry-comments h6 {
@@ -111,14 +110,14 @@
 .entry-comments-author {
   margin-right: 10px;
   font-size: 13px;
-  color: #292929;
+  color: #ffffff;
   letter-spacing: 0.1em;
   font-weight: 500;
 }
 
 .rep {
   font-size: 13px;
-  color: #292929;
+  color: #ffffff;
   letter-spacing: 0.1em;
   font-weight: 500;
   text-transform: capitalize;
@@ -126,7 +125,7 @@
 
 .entry-comments span a {
   font-size: 13px;
-  color: #999;
+  color: #ffffff;
 }
 
 .entry-comments-reply {
@@ -136,13 +135,13 @@
 /* Commonts form */
 
 .cmt {
-  background: #fff;
+  background: #303030bf;
 }
 
 blockquote {
   padding: 40px;
-  background-color: #f2f2f2;
+  background-color: #7b7b7bbf;
   margin: 30px 0;
   border: none;
-  border-left: 4px solid #b8a07e;
+  border-left: 4px solid #3c90a7;
 }

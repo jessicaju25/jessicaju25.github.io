@@ -49,7 +49,7 @@ html {
   width: device-width;
 }
 
-article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+article, aside, dialog, figcaption, figure, contact, header, hgroup, main, nav, section {
   display: block;
 }
 
@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #ffffff;
   text-align: left;
-  background-color: #fff;
+  background-color: #000000;
 }
 
 [tabindex="-1"]:focus {
@@ -216,7 +216,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #6c757d;
+  color: #ffffff;
   text-align: left;
   caption-side: bottom;
 }
@@ -431,7 +431,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #000000;
 }
 
 .list-unstyled {
@@ -462,13 +462,13 @@ mark,
   font-size: 1.25rem;
 }
 
-.blockquote-footer {
+.blockquote-contact {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #ffffff;
 }
 
-.blockquote-footer::before {
+.blockquote-contact::before {
   content: "\2014 \00A0";
 }
 
@@ -479,7 +479,7 @@ mark,
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
+  background-color: #000000;
   border: 1px solid #dee2e6;
   border-radius: 0.25rem;
   max-width: 100%;
@@ -497,7 +497,7 @@ mark,
 
 .figure-caption {
   font-size: 90%;
-  color: #6c757d;
+  color: #ffffff;
 }
 
 code,
@@ -534,7 +534,7 @@ kbd kbd {
 pre {
   display: block;
   font-size: 87.5%;
-  color: #212529;
+  color: #ffffff;
 }
 
 pre code {
@@ -4495,13 +4495,13 @@ tbody.collapse.show {
   border-top: 0;
 }
 
-.card-footer {
+.card-contact {
   padding: 0.75rem 1.25rem;
   background-color: rgba(0, 0, 0, 0.03);
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
-.card-footer:last-child {
+.card-contact:last-child {
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
 }
 
@@ -4623,7 +4623,7 @@ tbody.collapse.show {
     border-top-right-radius: 0;
   }
   .card-group > .card:first-child .card-img-bottom,
-  .card-group > .card:first-child .card-footer {
+  .card-group > .card:first-child .card-contact {
     border-bottom-right-radius: 0;
   }
   .card-group > .card:last-child {
@@ -4635,7 +4635,7 @@ tbody.collapse.show {
     border-top-left-radius: 0;
   }
   .card-group > .card:last-child .card-img-bottom,
-  .card-group > .card:last-child .card-footer {
+  .card-group > .card:last-child .card-contact {
     border-bottom-left-radius: 0;
   }
   .card-group > .card:only-child {
@@ -4647,7 +4647,7 @@ tbody.collapse.show {
     border-top-right-radius: 0.25rem;
   }
   .card-group > .card:only-child .card-img-bottom,
-  .card-group > .card:only-child .card-footer {
+  .card-group > .card:only-child .card-contact {
     border-bottom-right-radius: 0.25rem;
     border-bottom-left-radius: 0.25rem;
   }
@@ -4657,7 +4657,7 @@ tbody.collapse.show {
   .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-top,
   .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-img-bottom,
   .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-header,
-  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-footer {
+  .card-group > .card:not(:first-child):not(:last-child):not(:only-child) .card-contact {
     border-radius: 0;
   }
 }
@@ -5510,7 +5510,7 @@ button.close {
   padding: 1rem;
 }
 
-.modal-footer {
+.modal-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5524,11 +5524,11 @@ button.close {
   border-top: 1px solid #e9ecef;
 }
 
-.modal-footer > :not(:first-child) {
+.modal-contact > :not(:first-child) {
   margin-left: .25rem;
 }
 
-.modal-footer > :not(:last-child) {
+.modal-contact > :not(:last-child) {
   margin-right: .25rem;
 }
 
