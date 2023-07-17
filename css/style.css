@@ -175,7 +175,7 @@ p {
 
 nav {
   position: fixed;
-  background: #7f7d7d;
+  background: #fffbfbec;
   z-index: 1000;
   width: 100%;
   padding: 20px;
@@ -542,7 +542,7 @@ nav ul li a {
 } */
 
 /*-----------------------------------------------------------------------------------*/
-/*  Journal
+/*  Projects
 /*-----------------------------------------------------------------------------------*/
 
 #journal,  #journal-blog {
@@ -571,16 +571,41 @@ nav ul li a {
 
 #journal .journal-block .journal-info {
   position: relative;
-}
 
-.journal-block .journal-info img {
-  max-width: 100%;
 }
 
 .journal-block .journal-info .journal-txt {
   padding: 25px 0px;
   position: relative;
 }
+/* Apply styles to the image container */
+.image-link {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  overflow: hidden;
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+/* Styles for the image inside the container */
+.image-link img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover styles for the image container */
+.image-link:hover {
+  box-shadow: 0 0 10px 5px #00bfff; /* Add a blue box-shadow around the image container on hover */
+}
+
+/* Hover styles for the image */
+.image-link:hover img {
+  transform: scale(1.1); /* Increase the size of the image by 10% on hover */
+}
+
 
 .journal-block .journal-info .journal-txt h4 a {
   display: block;
