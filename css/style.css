@@ -580,13 +580,9 @@ nav ul li a {
 }
 
 /* styles.css */
-.video-container {
-  max-width: 100%;
-}
-
 .video-container video {
   width: 100%;
-  height: auto;
+  height: 500px;
 }
 
 
