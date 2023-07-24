@@ -53,10 +53,6 @@ My portfolio website showcases my projects, skills, and experiences. It provides
 
 Contributions to the project are welcome. If you have suggestions for improvements or would like to report any issues, please feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgements
 
 - Special thanks to [GitHub](https://github.com) for providing a platform to showcase my portfolio.
