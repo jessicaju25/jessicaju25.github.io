@@ -578,6 +578,18 @@ nav ul li a {
   padding: 25px 0px;
   position: relative;
 }
+
+/* styles.css */
+.video-container {
+  max-width: 100%;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+
 /* Apply styles to the image container */
 .image-link {
   display: inline-block;
